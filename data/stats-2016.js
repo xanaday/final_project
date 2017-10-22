@@ -1,0 +1,884 @@
+module.exports = [{
+    "State": "ALABAMA",
+    "ID": "AL",
+    "Population": "4,863,300",
+    "Crime": {
+      "Violent crime": "25,886",
+      "Murder and nonnegligent manslaughter": "407",
+      "Rape (revised definition)": "1,916",
+      "Rape (legacy definition)": "1,385",
+      "Robbery": "4,686",
+      "Aggravated assault": "18,877",
+      "Property crime": "143,362",
+      "Burglary": "34,065",
+      "Larceny-theft": "97,574",
+      "Motor vehicle theft": "11,723"
+    }
+  },
+  {
+    "State": "ALASKA",
+    "ID": "AK",
+    "Population": "741,894",
+    "Crime": {
+      "Violent crime": "5,966",
+      "Murder and nonnegligent manslaughter": "52",
+      "Rape (revised definition)": "1,053",
+      "Rape (legacy definition)": "757",
+      "Robbery": "850",
+      "Aggravated assault": "4,011",
+      "Property crime": "24,876",
+      "Burglary": "4,053",
+      "Larceny-theft": "17,766",
+      "Motor vehicle theft": "3,057"
+    }
+  },
+  {
+    "State": "ARIZONA",
+    "ID": "AZ",
+    "Population": "6,931,071",
+    "Crime": {
+      "Violent crime": "32,583",
+      "Murder and nonnegligent manslaughter": "380",
+      "Rape (revised definition)": "3,290",
+      "Rape (legacy definition)": "2,452",
+      "Robbery": "7,055",
+      "Aggravated assault": "21,858",
+      "Property crime": "206,432",
+      "Burglary": "37,736",
+      "Larceny-theft": "150,275",
+      "Motor vehicle theft": "18,421"
+    }
+  },
+  {
+    "State": "ARKANSAS",
+    "ID": "AR",
+    "Population": "2,988,248",
+    "Crime": {
+      "Violent crime": "16,461",
+      "Murder and nonnegligent manslaughter": "216",
+      "Rape (revised definition)": "2,143",
+      "Rape (legacy definition)": "1,545",
+      "Robbery": "2,120",
+      "Aggravated assault": "11,982",
+      "Property crime": "97,673",
+      "Burglary": "23,771",
+      "Larceny-theft": "66,747",
+      "Motor vehicle theft": "7,155"
+    }
+  },
+  {
+    "State": "CALIFORNIA",
+    "ID": "CA",
+    "Population": "39,250,017",
+    "Crime": {
+      "Violent crime": "174,796",
+      "Murder and nonnegligent manslaughter": "1,930",
+      "Rape (revised definition)": "13,702",
+      "Rape (legacy definition)": "10,149",
+      "Robbery": "54,789",
+      "Aggravated assault": "104,375",
+      "Property crime": "1,002,070",
+      "Burglary": "188,304",
+      "Larceny-theft": "637,010",
+      "Motor vehicle theft": "176,756"
+    }
+  },
+  {
+    "State": "COLORADO",
+    "ID": "CO",
+    "Population": "5,540,545",
+    "Crime": {
+      "Violent crime": "18,983",
+      "Murder and nonnegligent manslaughter": "204",
+      "Rape (revised definition)": "3,555",
+      "Rape (legacy definition)": "2,619",
+      "Robbery": "3,528",
+      "Aggravated assault": "11,696",
+      "Property crime": "151,850",
+      "Burglary": "23,903",
+      "Larceny-theft": "108,336",
+      "Motor vehicle theft": "19,611"
+    }
+  },
+  {
+    "State": "CONNECTICUT",
+    "ID": "CT",
+    "Population": "3,576,452",
+    "Crime": {
+      "Violent crime": "8,123",
+      "Murder and nonnegligent manslaughter": "78",
+      "Rape (revised definition)": "763",
+      "Rape (legacy definition)": "561",
+      "Robbery": "2,703",
+      "Aggravated assault": "4,579",
+      "Property crime": "64,664",
+      "Burglary": "10,045",
+      "Larceny-theft": "47,512",
+      "Motor vehicle theft": "7,107"
+    }
+  },
+  {
+    "State": "DELAWARE",
+    "ID": "DE",
+    "Population": "952,065",
+    "Crime": {
+      "Violent crime": "4,844",
+      "Murder and nonnegligent manslaughter": "56",
+      "Rape (revised definition)": "308",
+      "Rape (legacy definition)": "221",
+      "Robbery": "1,359",
+      "Aggravated assault": "3,121",
+      "Property crime": "26,334",
+      "Burglary": "5,023",
+      "Larceny-theft": "19,791",
+      "Motor vehicle theft": "1,520"
+    }
+  },
+  {
+    "State": "DISTRICT OF COLUMBIA",
+    "ID": "DC",
+    "Population": "681,170",
+    "Crime": {
+      "Violent crime": "8,214",
+      "Murder and nonnegligent manslaughter": "139",
+      "Rape (revised definition)": "532",
+      "Rape (legacy definition)": "401",
+      "Robbery": "3,480",
+      "Aggravated assault": "4,063",
+      "Property crime": "32,716",
+      "Burglary": "2,361",
+      "Larceny-theft": "27,382",
+      "Motor vehicle theft": "2,973"
+    }
+  },
+  {
+    "State": "FLORIDA",
+    "ID": "FL",
+    "Population": "20,612,439",
+    "Crime": {
+      "Violent crime": "88,700",
+      "Murder and nonnegligent manslaughter": "1,111",
+      "Rape (revised definition)": "7,598",
+      "Rape (legacy definition)": "5,528",
+      "Robbery": "20,175",
+      "Aggravated assault": "59,816",
+      "Property crime": "553,812",
+      "Burglary": "100,325",
+      "Larceny-theft": "410,352",
+      "Motor vehicle theft": "43,135"
+    }
+  },
+  {
+    "State": "GEORGIA",
+    "ID": "GA",
+    "Population": "10,310,371",
+    "Crime": {
+      "Violent crime": "40,990",
+      "Murder and nonnegligent manslaughter": "681",
+      "Rape (revised definition)": "3,509",
+      "Rape (legacy definition)": "2,528",
+      "Robbery": "12,205",
+      "Aggravated assault": "24,595",
+      "Property crime": "309,770",
+      "Burglary": "63,344",
+      "Larceny-theft": "219,625",
+      "Motor vehicle theft": "26,801"
+    }
+  },
+  {
+    "State": "HAWAII",
+    "ID": "HI",
+    "Population": "1,428,557",
+    "Crime": {
+      "Violent crime": "4,417",
+      "Murder and nonnegligent manslaughter": "35",
+      "Rape (revised definition)": "619",
+      "Rape (legacy definition)": "447",
+      "Robbery": "994",
+      "Aggravated assault": "2,769",
+      "Property crime": "42,753",
+      "Burglary": "6,017",
+      "Larceny-theft": "31,082",
+      "Motor vehicle theft": "5,654"
+    }
+  },
+  {
+    "State": "IDAHO",
+    "ID": "ID",
+    "Population": "1,683,140",
+    "Crime": {
+      "Violent crime": "3,876",
+      "Murder and nonnegligent manslaughter": "49",
+      "Rape (revised definition)": "719",
+      "Rape (legacy definition)": "529",
+      "Robbery": "213",
+      "Aggravated assault": "2,895",
+      "Property crime": "29,357",
+      "Burglary": "6,318",
+      "Larceny-theft": "20,962",
+      "Motor vehicle theft": "2,077"
+    }
+  },
+  {
+    "State": "ILLINOIS",
+    "ID": "IL",
+    "Population": "12,801,539",
+    "Crime": {
+      "Violent crime": "55,854",
+      "Murder and nonnegligent manslaughter": "1,054",
+      "Rape (revised definition)": "4,908",
+      "Rape (legacy definition)": "3,635",
+      "Robbery": "17,827",
+      "Aggravated assault": "32,065",
+      "Property crime": "262,306",
+      "Burglary": "47,989",
+      "Larceny-theft": "194,407",
+      "Motor vehicle theft": "19,910"
+    }
+  },
+  {
+    "State": "INDIANA",
+    "ID": "IN",
+    "Population": "6,633,053",
+    "Crime": {
+      "Violent crime": "26,845",
+      "Murder and nonnegligent manslaughter": "439",
+      "Rape (revised definition)": "2,501",
+      "Rape (legacy definition)": "1,851",
+      "Robbery": "7,330",
+      "Aggravated assault": "16,575",
+      "Property crime": "171,759",
+      "Burglary": "34,097",
+      "Larceny-theft": "122,931",
+      "Motor vehicle theft": "14,731"
+    }
+  },
+  {
+    "State": "IOWA",
+    "ID": "IA",
+    "Population": "3,134,693",
+    "Crime": {
+      "Violent crime": "9,110",
+      "Murder and nonnegligent manslaughter": "71",
+      "Rape (revised definition)": "1,247",
+      "Rape (legacy definition)": "922",
+      "Robbery": "1,148",
+      "Aggravated assault": "6,644",
+      "Property crime": "65,391",
+      "Burglary": "15,030",
+      "Larceny-theft": "45,378",
+      "Motor vehicle theft": "4,983"
+    }
+  },
+  {
+    "State": "KANSAS",
+    "ID": "KS",
+    "Population": "2,907,289",
+    "Crime": {
+      "Violent crime": "11,060",
+      "Murder and nonnegligent manslaughter": "111",
+      "Rape (revised definition)": "1,312",
+      "Rape (legacy definition)": "971",
+      "Robbery": "1,671",
+      "Aggravated assault": "7,966",
+      "Property crime": "78,367",
+      "Burglary": "14,364",
+      "Larceny-theft": "57,066",
+      "Motor vehicle theft": "6,937"
+    }
+  },
+  {
+    "State": "KENTUCKY",
+    "ID": "KY",
+    "Population": "4,436,974",
+    "Crime": {
+      "Violent crime": "10,308",
+      "Murder and nonnegligent manslaughter": "260",
+      "Rape (revised definition)": "1,641",
+      "Rape (legacy definition)": "1,174",
+      "Robbery": "3,369",
+      "Aggravated assault": "5,038",
+      "Property crime": "97,158",
+      "Burglary": "20,834",
+      "Larceny-theft": "66,438",
+      "Motor vehicle theft": "9,886"
+    }
+  },
+  {
+    "State": "LOUISIANA",
+    "ID": "LA",
+    "Population": "4,681,666",
+    "Crime": {
+      "Violent crime": "26,502",
+      "Murder and nonnegligent manslaughter": "554",
+      "Rape (revised definition)": "1,816",
+      "Rape (legacy definition)": "1,328",
+      "Robbery": "5,576",
+      "Aggravated assault": "18,556",
+      "Property crime": "154,386",
+      "Burglary": "34,667",
+      "Larceny-theft": "109,380",
+      "Motor vehicle theft": "10,339"
+    }
+  },
+  {
+    "State": "MAINE",
+    "ID": "ME",
+    "Population": "1,331,479",
+    "Crime": {
+      "Violent crime": "1,648",
+      "Murder and nonnegligent manslaughter": "20",
+      "Rape (revised definition)": "412",
+      "Rape (legacy definition)": "300",
+      "Robbery": "266",
+      "Aggravated assault": "950",
+      "Property crime": "21,912",
+      "Burglary": "4,003",
+      "Larceny-theft": "17,134",
+      "Motor vehicle theft": "775"
+    }
+  },
+  {
+    "State": "MARYLAND",
+    "ID": "MD",
+    "Population": "6,016,447",
+    "Crime": {
+      "Violent crime": "28,400",
+      "Murder and nonnegligent manslaughter": "481",
+      "Rape (revised definition)": "1,756",
+      "Rape (legacy definition)": "1,266",
+      "Robbery": "10,289",
+      "Aggravated assault": "15,874",
+      "Property crime": "137,445",
+      "Burglary": "24,692",
+      "Larceny-theft": "100,919",
+      "Motor vehicle theft": "11,834"
+    }
+  },
+  {
+    "State": "MASSACHUSETTS",
+    "ID": "MA",
+    "Population": "6,811,779",
+    "Crime": {
+      "Violent crime": "25,677",
+      "Murder and nonnegligent manslaughter": "134",
+      "Rape (revised definition)": "2,128",
+      "Rape (legacy definition)": "1,592",
+      "Robbery": "5,365",
+      "Aggravated assault": "18,050",
+      "Property crime": "106,339",
+      "Burglary": "19,193",
+      "Larceny-theft": "79,088",
+      "Motor vehicle theft": "8,058"
+    }
+  },
+  {
+    "State": "MICHIGAN",
+    "ID": "MI",
+    "Population": "9,928,300",
+    "Crime": {
+      "Violent crime": "45,572",
+      "Murder and nonnegligent manslaughter": "598",
+      "Rape (revised definition)": "7,125",
+      "Rape (legacy definition)": "5,114",
+      "Robbery": "7,120",
+      "Aggravated assault": "30,729",
+      "Property crime": "189,620",
+      "Burglary": "39,568",
+      "Larceny-theft": "129,876",
+      "Motor vehicle theft": "20,176"
+    }
+  },
+  {
+    "State": "MINNESOTA",
+    "ID": "MN",
+    "Population": "5,519,952",
+    "Crime": {
+      "Violent crime": "13,394",
+      "Murder and nonnegligent manslaughter": "101",
+      "Rape (revised definition)": "2,348",
+      "Rape (legacy definition)": "1,731",
+      "Robbery": "3,728",
+      "Aggravated assault": "7,217",
+      "Property crime": "117,756",
+      "Burglary": "18,606",
+      "Larceny-theft": "90,422",
+      "Motor vehicle theft": "8,728"
+    }
+  },
+  {
+    "State": "MISSISSIPPI",
+    "ID": "MS",
+    "Population": "2,988,726",
+    "Crime": {
+      "Violent crime": "8,383",
+      "Murder and nonnegligent manslaughter": "238",
+      "Rape (revised definition)": "1,277",
+      "Rape (legacy definition)": "905",
+      "Robbery": "2,397",
+      "Aggravated assault": "4,471",
+      "Property crime": "82,732",
+      "Burglary": "23,354",
+      "Larceny-theft": "55,054",
+      "Motor vehicle theft": "4,324"
+    }
+  },
+  {
+    "State": "MISSOURI",
+    "ID": "MO",
+    "Population": "6,093,000",
+    "Crime": {
+      "Violent crime": "31,644",
+      "Murder and nonnegligent manslaughter": "537",
+      "Rape (revised definition)": "2,554",
+      "Rape (legacy definition)": "1,884",
+      "Robbery": "6,570",
+      "Aggravated assault": "21,983",
+      "Property crime": "170,549",
+      "Burglary": "31,710",
+      "Larceny-theft": "120,544",
+      "Motor vehicle theft": "18,295"
+    }
+  },
+  {
+    "State": "MONTANA",
+    "ID": "MT",
+    "Population": "1,042,520",
+    "Crime": {
+      "Violent crime": "3,840",
+      "Murder and nonnegligent manslaughter": "36",
+      "Rape (revised definition)": "578",
+      "Rape (legacy definition)": "414",
+      "Robbery": "266",
+      "Aggravated assault": "2,960",
+      "Property crime": "27,976",
+      "Burglary": "3,934",
+      "Larceny-theft": "21,299",
+      "Motor vehicle theft": "2,743"
+    }
+  },
+  {
+    "State": "NEBRASKA",
+    "ID": "NE",
+    "Population": "1,907,116",
+    "Crime": {
+      "Violent crime": "5,550",
+      "Murder and nonnegligent manslaughter": "49",
+      "Rape (revised definition)": "994",
+      "Rape (legacy definition)": "738",
+      "Robbery": "946",
+      "Aggravated assault": "3,561",
+      "Property crime": "43,163",
+      "Burglary": "6,444",
+      "Larceny-theft": "31,994",
+      "Motor vehicle theft": "4,725"
+    }
+  },
+  {
+    "State": "NEVADA",
+    "ID": "NV",
+    "Population": "2,940,058",
+    "Crime": {
+      "Violent crime": "19,936",
+      "Murder and nonnegligent manslaughter": "224",
+      "Rape (revised definition)": "1,733",
+      "Rape (legacy definition)": "1,292",
+      "Robbery": "6,340",
+      "Aggravated assault": "11,639",
+      "Property crime": "76,047",
+      "Burglary": "18,850",
+      "Larceny-theft": "44,017",
+      "Motor vehicle theft": "13,180"
+    }
+  },
+  {
+    "State": "NEW HAMPSHIRE",
+    "ID": "NH",
+    "Population": "1,334,795",
+    "Crime": {
+      "Violent crime": "2,637",
+      "Murder and nonnegligent manslaughter": "17",
+      "Rape (revised definition)": "582",
+      "Rape (legacy definition)": "423",
+      "Robbery": "427",
+      "Aggravated assault": "1,611",
+      "Property crime": "20,194",
+      "Burglary": "2,963",
+      "Larceny-theft": "16,360",
+      "Motor vehicle theft": "871"
+    }
+  },
+  {
+    "State": "NEW JERSEY",
+    "ID": "NJ",
+    "Population": "8,944,469",
+    "Crime": {
+      "Violent crime": "21,914",
+      "Murder and nonnegligent manslaughter": "372",
+      "Rape (revised definition)": "1,453",
+      "Rape (legacy definition)": "1,089",
+      "Robbery": "8,984",
+      "Aggravated assault": "11,105",
+      "Property crime": "138,152",
+      "Burglary": "25,284",
+      "Larceny-theft": "101,540",
+      "Motor vehicle theft": "11,328"
+    }
+  },
+  {
+    "State": "NEW MEXICO",
+    "ID": "NM",
+    "Population": "2,081,015",
+    "Crime": {
+      "Violent crime": "14,619",
+      "Murder and nonnegligent manslaughter": "139",
+      "Rape (revised definition)": "1,526",
+      "Rape (legacy definition)": "1,117",
+      "Robbery": "2,737",
+      "Aggravated assault": "10,217",
+      "Property crime": "81,931",
+      "Burglary": "17,281",
+      "Larceny-theft": "52,907",
+      "Motor vehicle theft": "11,743"
+    }
+  },
+  {
+    "State": "NEW YORK",
+    "ID": "NY",
+    "Population": "19,745,289",
+    "Crime": {
+      "Violent crime": "74,285",
+      "Murder and nonnegligent manslaughter": "630",
+      "Rape (revised definition)": "6,260",
+      "Rape (legacy definition)": "4,569",
+      "Robbery": "22,316",
+      "Aggravated assault": "45,079",
+      "Property crime": "305,181",
+      "Burglary": "39,821",
+      "Larceny-theft": "250,968",
+      "Motor vehicle theft": "14,392"
+    }
+  },
+  {
+    "State": "NORTH CAROLINA",
+    "ID": "NC",
+    "Population": "10,146,788",
+    "Crime": {
+      "Violent crime": "37,769",
+      "Murder and nonnegligent manslaughter": "678",
+      "Rape (revised definition)": "2,849",
+      "Rape (legacy definition)": "2,086",
+      "Robbery": "9,336",
+      "Aggravated assault": "24,906",
+      "Property crime": "277,765",
+      "Burglary": "72,082",
+      "Larceny-theft": "190,377",
+      "Motor vehicle theft": "15,306"
+    }
+  },
+  {
+    "State": "NORTH DAKOTA",
+    "ID": "ND",
+    "Population": "757,952",
+    "Crime": {
+      "Violent crime": "1,903",
+      "Murder and nonnegligent manslaughter": "15",
+      "Rape (revised definition)": "342",
+      "Rape (legacy definition)": "256",
+      "Robbery": "181",
+      "Aggravated assault": "1,365",
+      "Property crime": "17,402",
+      "Burglary": "3,243",
+      "Larceny-theft": "12,195",
+      "Motor vehicle theft": "1,964"
+    }
+  },
+  {
+    "State": "OHIO",
+    "ID": "OH",
+    "Population": "11,614,373",
+    "Crime": {
+      "Violent crime": "34,877",
+      "Murder and nonnegligent manslaughter": "654",
+      "Rape (revised definition)": "5,589",
+      "Rape (legacy definition)": "4,141",
+      "Robbery": "12,523",
+      "Aggravated assault": "16,111",
+      "Property crime": "299,357",
+      "Burglary": "66,883",
+      "Larceny-theft": "212,807",
+      "Motor vehicle theft": "19,667"
+    }
+  },
+  {
+    "State": "OKLAHOMA",
+    "ID": "OK",
+    "Population": "3,923,561",
+    "Crime": {
+      "Violent crime": "17,648",
+      "Murder and nonnegligent manslaughter": "245",
+      "Rape (revised definition)": "2,039",
+      "Rape (legacy definition)": "1,509",
+      "Robbery": "3,162",
+      "Aggravated assault": "12,202",
+      "Property crime": "117,037",
+      "Burglary": "29,103",
+      "Larceny-theft": "75,779",
+      "Motor vehicle theft": "12,155"
+    }
+  },
+  {
+    "State": "OREGON",
+    "ID": "OR",
+    "Population": "4,093,465",
+    "Crime": {
+      "Violent crime": "10,830",
+      "Murder and nonnegligent manslaughter": "113",
+      "Rape (revised definition)": "1,721",
+      "Rape (legacy definition)": "1,261",
+      "Robbery": "2,278",
+      "Aggravated assault": "6,718",
+      "Property crime": "121,345",
+      "Burglary": "16,866",
+      "Larceny-theft": "91,286",
+      "Motor vehicle theft": "13,193"
+    }
+  },
+  {
+    "State": "PENNSYLVANIA",
+    "ID": "PA",
+    "Population": "12,784,227",
+    "Crime": {
+      "Violent crime": "40,447",
+      "Murder and nonnegligent manslaughter": "661",
+      "Rape (revised definition)": "4,433",
+      "Rape (legacy definition)": "3,233",
+      "Robbery": "12,326",
+      "Aggravated assault": "23,027",
+      "Property crime": "222,795",
+      "Burglary": "35,520",
+      "Larceny-theft": "174,228",
+      "Motor vehicle theft": "13,047"
+    }
+  },
+  {
+    "State": "PUERTO RICO",
+    "ID": "PR",
+    "Population": "3,411,307",
+    "Crime": {
+      "Violent crime": "7,643",
+      "Murder and nonnegligent manslaughter": "679",
+      "Rape (revised definition)": "169",
+      "Rape (legacy definition)": "128",
+      "Robbery": "3,201",
+      "Aggravated assault": "3,594",
+      "Property crime": "35,201",
+      "Burglary": "8,251",
+      "Larceny-theft": "23,163",
+      "Motor vehicle theft": "3,787"
+    }
+  },
+  {
+    "State": "RHODE ISLAND",
+    "ID": "RI",
+    "Population": "1,056,426",
+    "Crime": {
+      "Violent crime": "2,524",
+      "Murder and nonnegligent manslaughter": "29",
+      "Rape (revised definition)": "442",
+      "Rape (legacy definition)": "328",
+      "Robbery": "540",
+      "Aggravated assault": "1,513",
+      "Property crime": "20,058",
+      "Burglary": "3,788",
+      "Larceny-theft": "14,674",
+      "Motor vehicle theft": "1,596"
+    }
+  },
+  {
+    "State": "SOUTH CAROLINA",
+    "ID": "SC",
+    "Population": "4,961,119",
+    "Crime": {
+      "Violent crime": "24,896",
+      "Murder and nonnegligent manslaughter": "366",
+      "Rape (revised definition)": "2,387",
+      "Rape (legacy definition)": "1,711",
+      "Robbery": "4,035",
+      "Aggravated assault": "18,108",
+      "Property crime": "160,928",
+      "Burglary": "32,976",
+      "Larceny-theft": "114,032",
+      "Motor vehicle theft": "13,920"
+    }
+  },
+  {
+    "State": "SOUTH DAKOTA",
+    "ID": "SD",
+    "Population": "865,454",
+    "Crime": {
+      "Violent crime": "3,621",
+      "Murder and nonnegligent manslaughter": "27",
+      "Rape (revised definition)": "509",
+      "Rape (legacy definition)": "379",
+      "Robbery": "272",
+      "Aggravated assault": "2,813",
+      "Property crime": "17,141",
+      "Burglary": "3,000",
+      "Larceny-theft": "12,639",
+      "Motor vehicle theft": "1,502"
+    }
+  },
+  {
+    "State": "TENNESSEE",
+    "ID": "TN",
+    "Population": "6,651,194",
+    "Crime": {
+      "Violent crime": "42,097",
+      "Murder and nonnegligent manslaughter": "486",
+      "Rape (revised definition)": "2,714",
+      "Rape (legacy definition)": "1,991",
+      "Robbery": "7,813",
+      "Aggravated assault": "31,084",
+      "Property crime": "189,835",
+      "Burglary": "40,312",
+      "Larceny-theft": "134,404",
+      "Motor vehicle theft": "15,119"
+    }
+  },
+  {
+    "State": "TEXAS",
+    "ID": "TX",
+    "Population": "27,862,596",
+    "Crime": {
+      "Violent crime": "121,042",
+      "Murder and nonnegligent manslaughter": "1,478",
+      "Rape (revised definition)": "13,367",
+      "Rape (legacy definition)": "9,858",
+      "Robbery": "33,317",
+      "Aggravated assault": "72,880",
+      "Property crime": "768,947",
+      "Burglary": "148,740",
+      "Larceny-theft": "551,151",
+      "Motor vehicle theft": "69,056"
+    }
+  },
+  {
+    "State": "UTAH",
+    "ID": "UT",
+    "Population": "3,051,217",
+    "Crime": {
+      "Violent crime": "7,407",
+      "Murder and nonnegligent manslaughter": "72",
+      "Rape (revised definition)": "1,520",
+      "Rape (legacy definition)": "1,116",
+      "Robbery": "1,541",
+      "Aggravated assault": "4,274",
+      "Property crime": "90,058",
+      "Burglary": "12,836",
+      "Larceny-theft": "67,834",
+      "Motor vehicle theft": "9,388"
+    }
+  },
+  {
+    "State": "VERMONT",
+    "ID": "VT",
+    "Population": "624,594",
+    "Crime": {
+      "Violent crime": "989",
+      "Murder and nonnegligent manslaughter": "14",
+      "Rape (revised definition)": "178",
+      "Rape (legacy definition)": "124",
+      "Robbery": "106",
+      "Aggravated assault": "691",
+      "Property crime": "10,602",
+      "Burglary": "2,103",
+      "Larceny-theft": "8,217",
+      "Motor vehicle theft": "282"
+    }
+  },
+  {
+    "State": "VIRGINIA",
+    "ID": "VA",
+    "Population": "8,411,808",
+    "Crime": {
+      "Violent crime": "18,302",
+      "Murder and nonnegligent manslaughter": "484",
+      "Rape (revised definition)": "2,737",
+      "Rape (legacy definition)": "1,965",
+      "Robbery": "4,803",
+      "Aggravated assault": "10,278",
+      "Property crime": "156,412",
+      "Burglary": "20,018",
+      "Larceny-theft": "126,606",
+      "Motor vehicle theft": "9,788"
+    }
+  },
+  {
+    "State": "WASHINGTON",
+    "ID": "WA",
+    "Population": "7,288,000",
+    "Crime": {
+      "Violent crime": "22,023",
+      "Murder and nonnegligent manslaughter": "195",
+      "Rape (revised definition)": "3,077",
+      "Rape (legacy definition)": "2,259",
+      "Robbery": "5,651",
+      "Aggravated assault": "13,100",
+      "Property crime": "254,653",
+      "Burglary": "49,180",
+      "Larceny-theft": "173,187",
+      "Motor vehicle theft": "32,286"
+    }
+  },
+  {
+    "State": "WEST VIRGINIA",
+    "ID": "WV",
+    "Population": "1,831,102",
+    "Crime": {
+      "Violent crime": "6,557",
+      "Murder and nonnegligent manslaughter": "81",
+      "Rape (revised definition)": "657",
+      "Rape (legacy definition)": "468",
+      "Robbery": "720",
+      "Aggravated assault": "5,099",
+      "Property crime": "37,487",
+      "Burglary": "9,301",
+      "Larceny-theft": "25,677",
+      "Motor vehicle theft": "2,509"
+    }
+  },
+  {
+    "State": "WISCONSIN",
+    "ID": "WI",
+    "Population": "5,778,708",
+    "Crime": {
+      "Violent crime": "17,679",
+      "Murder and nonnegligent manslaughter": "229",
+      "Rape (revised definition)": "1,979",
+      "Rape (legacy definition)": "1,458",
+      "Robbery": "4,706",
+      "Aggravated assault": "10,765",
+      "Property crime": "111,720",
+      "Burglary": "19,425",
+      "Larceny-theft": "82,337",
+      "Motor vehicle theft": "9,958"
+    }
+  },
+  {
+    "State": "WYOMING",
+    "ID": "WY",
+    "Population": "585,501",
+    "Crime": {
+      "Violent crime": "1,430",
+      "Murder and nonnegligent manslaughter": "20",
+      "Rape (revised definition)": "205",
+      "Rape (legacy definition)": "150",
+      "Robbery": "59",
+      "Aggravated assault": "1,146",
+      "Property crime": "11,460",
+      "Burglary": "1,771",
+      "Larceny-theft": "8,889",
+      "Motor vehicle theft": "800"
+    }
+  }]
