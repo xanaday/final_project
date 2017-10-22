@@ -1,5 +1,6 @@
 [{
     "State": "ALABAMA",
+    "ID": "AL",
     "Population": "4,863,300",
     "Crime": {
       "Violent crime": "25,886",
@@ -16,6 +17,7 @@
   },
   {
     "State": "ALASKA",
+    "ID": "AK",
     "Population": "741,894",
     "Crime": {
       "Violent crime": "5,966",
@@ -32,6 +34,7 @@
   },
   {
     "State": "ARIZONA",
+    "ID": "AZ",
     "Population": "6,931,071",
     "Crime": {
       "Violent crime": "32,583",
@@ -48,6 +51,7 @@
   },
   {
     "State": "ARKANSAS",
+    "ID": "AR",
     "Population": "2,988,248",
     "Crime": {
       "Violent crime": "16,461",
@@ -64,6 +68,7 @@
   },
   {
     "State": "CALIFORNIA",
+    "ID": "CA",
     "Population": "39,250,017",
     "Crime": {
       "Violent crime": "174,796",
@@ -80,6 +85,7 @@
   },
   {
     "State": "COLORADO",
+    "ID": "CO",
     "Population": "5,540,545",
     "Crime": {
       "Violent crime": "18,983",
@@ -96,6 +102,7 @@
   },
   {
     "State": "CONNECTICUT",
+    "ID": "CT",
     "Population": "3,576,452",
     "Crime": {
       "Violent crime": "8,123",
@@ -112,6 +119,7 @@
   },
   {
     "State": "DELAWARE",
+    "ID": "DE",
     "Population": "952,065",
     "Crime": {
       "Violent crime": "4,844",
@@ -128,6 +136,7 @@
   },
   {
     "State": "DISTRICT OF COLUMBIA",
+    "ID": "DC",
     "Population": "681,170",
     "Crime": {
       "Violent crime": "8,214",
@@ -144,6 +153,7 @@
   },
   {
     "State": "FLORIDA",
+    "ID": "FL",
     "Population": "20,612,439",
     "Crime": {
       "Violent crime": "88,700",
@@ -160,6 +170,7 @@
   },
   {
     "State": "GEORGIA",
+    "ID": "GA",
     "Population": "10,310,371",
     "Crime": {
       "Violent crime": "40,990",
@@ -176,6 +187,7 @@
   },
   {
     "State": "HAWAII",
+    "ID": "HI",
     "Population": "1,428,557",
     "Crime": {
       "Violent crime": "4,417",
@@ -192,6 +204,7 @@
   },
   {
     "State": "IDAHO",
+    "ID": "ID",
     "Population": "1,683,140",
     "Crime": {
       "Violent crime": "3,876",
@@ -208,6 +221,7 @@
   },
   {
     "State": "ILLINOIS",
+    "ID": "IL",
     "Population": "12,801,539",
     "Crime": {
       "Violent crime": "55,854",
@@ -224,6 +238,7 @@
   },
   {
     "State": "INDIANA",
+    "ID": "IN",
     "Population": "6,633,053",
     "Crime": {
       "Violent crime": "26,845",
@@ -240,6 +255,7 @@
   },
   {
     "State": "IOWA",
+    "ID": "IA",
     "Population": "3,134,693",
     "Crime": {
       "Violent crime": "9,110",
@@ -256,6 +272,7 @@
   },
   {
     "State": "KANSAS",
+    "ID": "KS",
     "Population": "2,907,289",
     "Crime": {
       "Violent crime": "11,060",
@@ -272,6 +289,7 @@
   },
   {
     "State": "KENTUCKY",
+    "ID": "KY",
     "Population": "4,436,974",
     "Crime": {
       "Violent crime": "10,308",
@@ -288,6 +306,7 @@
   },
   {
     "State": "LOUISIANA",
+    "ID": "LA",
     "Population": "4,681,666",
     "Crime": {
       "Violent crime": "26,502",
@@ -304,6 +323,7 @@
   },
   {
     "State": "MAINE",
+    "ID": "ME",
     "Population": "1,331,479",
     "Crime": {
       "Violent crime": "1,648",
@@ -320,6 +340,7 @@
   },
   {
     "State": "MARYLAND",
+    "ID": "MD",
     "Population": "6,016,447",
     "Crime": {
       "Violent crime": "28,400",
@@ -336,6 +357,7 @@
   },
   {
     "State": "MASSACHUSETTS",
+    "ID": "MA",
     "Population": "6,811,779",
     "Crime": {
       "Violent crime": "25,677",
@@ -352,6 +374,7 @@
   },
   {
     "State": "MICHIGAN",
+    "ID": "MI",
     "Population": "9,928,300",
     "Crime": {
       "Violent crime": "45,572",
@@ -368,6 +391,7 @@
   },
   {
     "State": "MINNESOTA",
+    "ID": "MN",
     "Population": "5,519,952",
     "Crime": {
       "Violent crime": "13,394",
@@ -384,6 +408,7 @@
   },
   {
     "State": "MISSISSIPPI",
+    "ID": "MS",
     "Population": "2,988,726",
     "Crime": {
       "Violent crime": "8,383",
@@ -400,6 +425,7 @@
   },
   {
     "State": "MISSOURI",
+    "ID": "MO",
     "Population": "6,093,000",
     "Crime": {
       "Violent crime": "31,644",
@@ -416,6 +442,7 @@
   },
   {
     "State": "MONTANA",
+    "ID": "MT",
     "Population": "1,042,520",
     "Crime": {
       "Violent crime": "3,840",
@@ -432,6 +459,7 @@
   },
   {
     "State": "NEBRASKA",
+    "ID": "NE",
     "Population": "1,907,116",
     "Crime": {
       "Violent crime": "5,550",
@@ -448,6 +476,7 @@
   },
   {
     "State": "NEVADA",
+    "ID": "NV",
     "Population": "2,940,058",
     "Crime": {
       "Violent crime": "19,936",
@@ -464,6 +493,7 @@
   },
   {
     "State": "NEW HAMPSHIRE",
+    "ID": "NH",
     "Population": "1,334,795",
     "Crime": {
       "Violent crime": "2,637",
@@ -480,6 +510,7 @@
   },
   {
     "State": "NEW JERSEY",
+    "ID": "NJ",
     "Population": "8,944,469",
     "Crime": {
       "Violent crime": "21,914",
@@ -496,6 +527,7 @@
   },
   {
     "State": "NEW MEXICO",
+    "ID": "NM",
     "Population": "2,081,015",
     "Crime": {
       "Violent crime": "14,619",
@@ -512,6 +544,7 @@
   },
   {
     "State": "NEW YORK",
+    "ID": "NY",
     "Population": "19,745,289",
     "Crime": {
       "Violent crime": "74,285",
@@ -528,6 +561,7 @@
   },
   {
     "State": "NORTH CAROLINA",
+    "ID": "NC",
     "Population": "10,146,788",
     "Crime": {
       "Violent crime": "37,769",
@@ -543,7 +577,25 @@
     }
   },
   {
+    "State": "NORTH DAKOTA",
+    "ID": "ND",
+    "Population": "757,952",
+    "Crime": {
+      "Violent crime": "1,903",
+      "Murder and nonnegligent manslaughter": "15",
+      "Rape (revised definition)": "342",
+      "Rape (legacy definition)": "256",
+      "Robbery": "181",
+      "Aggravated assault": "1,365",
+      "Property crime": "17,402",
+      "Burglary": "3,243",
+      "Larceny-theft": "12,195",
+      "Motor vehicle theft": "1,964"
+    }
+  },
+  {
     "State": "OHIO",
+    "ID": "OH",
     "Population": "11,614,373",
     "Crime": {
       "Violent crime": "34,877",
@@ -560,6 +612,7 @@
   },
   {
     "State": "OKLAHOMA",
+    "ID": "OK",
     "Population": "3,923,561",
     "Crime": {
       "Violent crime": "17,648",
@@ -576,6 +629,7 @@
   },
   {
     "State": "OREGON",
+    "ID": "OR",
     "Population": "4,093,465",
     "Crime": {
       "Violent crime": "10,830",
@@ -592,6 +646,7 @@
   },
   {
     "State": "PENNSYLVANIA",
+    "ID": "PA",
     "Population": "12,784,227",
     "Crime": {
       "Violent crime": "40,447",
@@ -608,6 +663,7 @@
   },
   {
     "State": "PUERTO RICO",
+    "ID": "PR",
     "Population": "3,411,307",
     "Crime": {
       "Violent crime": "7,643",
@@ -624,6 +680,7 @@
   },
   {
     "State": "RHODE ISLAND",
+    "ID": "RI",
     "Population": "1,056,426",
     "Crime": {
       "Violent crime": "2,524",
@@ -640,6 +697,7 @@
   },
   {
     "State": "SOUTH CAROLINA",
+    "ID": "SC",
     "Population": "4,961,119",
     "Crime": {
       "Violent crime": "24,896",
@@ -656,6 +714,7 @@
   },
   {
     "State": "SOUTH DAKOTA",
+    "ID": "SD",
     "Population": "865,454",
     "Crime": {
       "Violent crime": "3,621",
@@ -672,6 +731,7 @@
   },
   {
     "State": "TENNESSEE",
+    "ID": "TN",
     "Population": "6,651,194",
     "Crime": {
       "Violent crime": "42,097",
@@ -688,6 +748,7 @@
   },
   {
     "State": "TEXAS",
+    "ID": "TX",
     "Population": "27,862,596",
     "Crime": {
       "Violent crime": "121,042",
@@ -704,6 +765,7 @@
   },
   {
     "State": "UTAH",
+    "ID": "UT",
     "Population": "3,051,217",
     "Crime": {
       "Violent crime": "7,407",
@@ -720,6 +782,7 @@
   },
   {
     "State": "VERMONT",
+    "ID": "VT",
     "Population": "624,594",
     "Crime": {
       "Violent crime": "989",
@@ -736,6 +799,7 @@
   },
   {
     "State": "VIRGINIA",
+    "ID": "VA",
     "Population": "8,411,808",
     "Crime": {
       "Violent crime": "18,302",
@@ -752,6 +816,7 @@
   },
   {
     "State": "WASHINGTON",
+    "ID": "WA",
     "Population": "7,288,000",
     "Crime": {
       "Violent crime": "22,023",
@@ -768,6 +833,7 @@
   },
   {
     "State": "WEST VIRGINIA",
+    "ID": "WV",
     "Population": "1,831,102",
     "Crime": {
       "Violent crime": "6,557",
@@ -784,6 +850,7 @@
   },
   {
     "State": "WISCONSIN",
+    "ID": "WI",
     "Population": "5,778,708",
     "Crime": {
       "Violent crime": "17,679",
@@ -800,6 +867,7 @@
   },
   {
     "State": "WYOMING",
+    "ID": "WY",
     "Population": "585,501",
     "Crime": {
       "Violent crime": "1,430",
