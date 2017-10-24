@@ -2,13 +2,22 @@ body {
   margin: 0 auto;
   height: 100vh;
 }
+.header {
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 2.5em;
+  color: #F5E3A5;
+  background-color: #000000;
+}
 #us-map{
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  /* top: 0;
+  left: 0; */
+  bottom: 0;
+  width: 80%;
+  height: 80%;
 }
 path:hover, circle:hover {
   stroke: #25346F !important;
@@ -37,28 +46,10 @@ path:hover, circle:hover {
   padding: 5px;
   font-family: arial;
 }
-/* #myModal {
+.details-button.btn {
   display: none;
-  display: block;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 3;
-  background-color: rgba(124, 124, 124, 0.5);
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.modal-content {
-  background-color: #fefefe;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #888;
-  border-radius: 5px;
-  width: 80%;
+/* .warnings {
+ position: absolute;
+ right: 0; 
 } */
