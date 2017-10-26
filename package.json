@@ -5,7 +5,7 @@
   "main": "simpleReact.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src/ -d public/js"
+    "build": "babel --watch src/ -d public/js"
   },
   "author": "",
   "license": "ISC",
