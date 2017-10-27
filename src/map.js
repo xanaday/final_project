@@ -1,3 +1,7 @@
+// is this right? check old js apps
+$(document).ready()
+console.log('document loaded')
+
 $("path, circle").hover(function(e) {
   $('#info-box').css('display','block');
   $('#info-box').html($(this).data('info'));
@@ -16,55 +20,115 @@ var toNumber = function(str) {
   return parseInt(str.replace(",", ""))
 }
 
-for(i = 0; i < stats.stats.length; i++){
-  // console.log(parseInt(stats.stats[i].Crime['Violent crime']) / 100000)
-  var pcStats = toNumber(stats.stats[i].Crime['Property crime'])
-  var vcStats = toNumber(stats.stats[i].Crime['Violent crime'])
+$("#vcStatsButton").click(function() {
+  for(i = 0; i < stats.stats.length; i++){
+    // console.log(parseInt(stats.stats[i].Crime['Violent crime']) / 100000)
+    var pcStats = toNumber(stats.stats[i].Crime['Property crime'])
+    var vcStats = toNumber(stats.stats[i].Crime['Violent crime'])
+      
+    var avgVcMap = parseFloat((vcStats / 100000)).toFixed(1)
+    var avgPcMap = parseFloat((pcStats / 100000)).toFixed(1)
     
-  var avgVcMap = parseFloat(Math.round(((vcStats / 100000) * 1000)/10)/100).toFixed(1)
-  var avgPcMap = parseFloat(Math.round(((pcStats / 100000) * 1000)/10)/100).toFixed(1)
-  
-  var stateID = stats.stats[i].ID
+    var stateID = stats.stats[i].ID
+    var changeThisLaterOn = parseFloat(parseFloat(avgVcMap).toFixed(1))
+    // $('#' + stateID).css("fill", "red")  
+    console.log(parseFloat(avgVcMap))
+    switch (avgVcMap) {
+      // case "1.0":
+      //   $('#' + stateID).css("fill", "aqua")
+      //   break;
+      case "0.9":
+        $('#' + stateID).css("fill", "aquamarine")
+        break;
+      case "0.8":
+        $('#' + stateID).css("fill", "azure")
+        break;
+      case "0.7":
+        $('#' + stateID).css("fill", "blue")
+        break;
+      case "0.6":
+        $('#' + stateID).css("fill", "blueviolet")
+        break;
+      case "0.5":
+        $('#' + stateID).css("fill", "cadetblue")
+        break;
+      case "0.4":
+        $('#' + stateID).css("fill", "cornflowerblue")
+        break;
+      case "0.3":
+        $('#' + stateID).css("fill", "darkblue")
+        break;
+      case "0.2":
+        $('#' + stateID).css("fill", "darkcyan")
+        break;
+      case "0.1":
+        $('#' + stateID).css("fill", "dodgerblue")
+        break;
+      case "0.0":
+        $("#" + stateID).css("fill", "green")
+        break;
+      default:
+        $('#' + stateID).css("fill", "aqua")
+        break;
+    } 
+    // console.log(avgVcMap)
+  }  
+})
 
-  $('#' + stateID).css("fill", "red")  
-
-  // switch (getavgVcMap) {
-  //   case (avgVc >= 1):
-  //     <path style="stroke:#CC0000"></path>
-  //     break;
-  //   case (avgVc >= .9):
-  //     <path style="stroke:#FF0000"></path>
-  //     break;
-  //   case (avgVc >= .8):
-  //     <path style="stroke:#FF3333"></path>
-  //     break;
-  //   case (avgVc >= .7):
-  //     <path style="stroke:#FF3366"></path>
-  //     break;
-  //   case (avgVc >= .6):
-  //     <path style="stroke:#FF0066"></path>
-  //     break;
-  //   case (avgVc >= .5):
-  //     <path style="stroke:#CC0099"></path>
-  //     break;
-  //   case (avgVc >= .4):
-  //     <path style="stroke:#CC33CC"></path>
-  //     break;
-  //   case (avgVc >= .3):
-  //     <path style="stroke:#993399"></path>
-  //     break;
-  //   case (avgVc >= .2):
-  //     <path style="stroke:#9900CC"></path>
-  //     break;
-  //   case (avgVc <=.1):
-  //     <path style="stroke:#4F1A6C"></path>
-  //     break;
-  //   default:
-  //     break;
-  // }
-  
-  // console.log(avgVcMap)
-}
+$("#pcStatsButton").click(function() {
+  for(i = 0; i < stats.stats.length; i++){
+    // console.log(parseInt(stats.stats[i].Crime['Violent crime']) / 100000)
+    var pcStats = toNumber(stats.stats[i].Crime['Property crime'])
+    var vcStats = toNumber(stats.stats[i].Crime['Violent crime'])
+      
+    var avgVcMap = parseFloat((vcStats / 100000)).toFixed(1)
+    var avgPcMap = parseFloat((pcStats / 100000)).toFixed(1)
+    
+    var stateID = stats.stats[i].ID
+    var changeThisLaterOn = parseFloat(parseFloat(avgPcMap).toFixed(1))
+    // $('#' + stateID).css("fill", "red")  
+    console.log(parseFloat(avgPcMap))
+    switch (avgPcMap) {
+      // case "1.0":
+      //   $('#' + stateID).css("fill", "aqua")
+      //   break;
+      case "0.9":
+        $('#' + stateID).css("fill", "orange")
+        break;
+      case "0.8":
+        $('#' + stateID).css("fill", "azure")
+        break;
+      case "0.7":
+        $('#' + stateID).css("fill", "blue")
+        break;
+      case "0.6":
+        $('#' + stateID).css("fill", "blueviolet")
+        break;
+      case "0.5":
+        $('#' + stateID).css("fill", "cadetblue")
+        break;
+      case "0.4":
+        $('#' + stateID).css("fill", "cornflowerblue")
+        break;
+      case "0.3":
+        $('#' + stateID).css("fill", "darkblue")
+        break;
+      case "0.2":
+        $('#' + stateID).css("fill", "darkcyan")
+        break;
+      case "0.1":
+        $('#' + stateID).css("fill", "dodgerblue")
+        break;
+      case "0.0":
+        $("#" + stateID).css("fill", "green")
+        break;
+      default:
+        $('#' + stateID).css("fill", "aqua")
+        break;
+    } 
+    // console.log(avgVcMap)
+  }
+})
 
 // var pcStats = toNumber(stats.stats[i].Crime['Property crime'])
 // var vcStats = toNumber(stats.stats[i].Crime['Violent crime'])
