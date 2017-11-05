@@ -31,47 +31,42 @@ $("#vcStatsButton").click(function () {
 
     var stateID = stats.stats[i].ID;
     var changeThisLaterOn = parseFloat(parseFloat(avgVcMap).toFixed(1));
-    // $('#' + stateID).css("fill", "red")  
+
     console.log(parseFloat(avgVcMap));
     switch (avgVcMap) {
-      // case "1.0":
-      //   $('#' + stateID).css("fill", "aqua")
+      // case "0.9":
+      //   $('#' + stateID).css("fill", "#67001f")
       //   break;
-      case "0.9":
-        $('#' + stateID).css("fill", "aquamarine");
-        break;
       case "0.8":
-        $('#' + stateID).css("fill", "azure");
+        $('#' + stateID).css("fill", "#980043");
         break;
       case "0.7":
-        $('#' + stateID).css("fill", "blue");
+        $('#' + stateID).css("fill", "#ce1256");
         break;
       case "0.6":
-        $('#' + stateID).css("fill", "blueviolet");
+        $('#' + stateID).css("fill", "#e7298a");
         break;
       case "0.5":
-        $('#' + stateID).css("fill", "cadetblue");
+        $('#' + stateID).css("fill", "#df65b0");
         break;
       case "0.4":
-        $('#' + stateID).css("fill", "cornflowerblue");
+        $('#' + stateID).css("fill", "#c994c7");
         break;
       case "0.3":
-        $('#' + stateID).css("fill", "darkblue");
+        $('#' + stateID).css("fill", "#d4b9da");
         break;
       case "0.2":
-        $('#' + stateID).css("fill", "darkcyan");
+        $('#' + stateID).css("fill", "#e7e1ef");
         break;
       case "0.1":
-        $('#' + stateID).css("fill", "dodgerblue");
-        break;
       case "0.0":
-        $("#" + stateID).css("fill", "green");
+        $("#" + stateID).css("fill", "#f7f4f9");
         break;
+      case "0.9":
       default:
-        $('#' + stateID).css("fill", "aqua");
+        $('#' + stateID).css("fill", "#67001f");
         break;
     }
-    // console.log(avgVcMap)
   }
 });
 
@@ -89,41 +84,47 @@ $("#pcStatsButton").click(function () {
     // $('#' + stateID).css("fill", "red")  
     console.log(parseFloat(avgPcMap));
     switch (avgPcMap) {
-      // case "1.0":
-      //   $('#' + stateID).css("fill", "aqua")
-      //   break;
+      case "2.0":
+      case "1.0":
+      case "1.1":
+      case "1.2":
+      case "1.3":
+      case "1.4":
+      case "1.5":
+      case "1.6":
+      case "1.7":
+      case "1.8":
+      case "1.9":
       case "0.9":
-        $('#' + stateID).css("fill", "orange");
+        $('#' + stateID).css("fill", "#67001f");
         break;
       case "0.8":
-        $('#' + stateID).css("fill", "azure");
+        $('#' + stateID).css("fill", "#980043");
         break;
       case "0.7":
-        $('#' + stateID).css("fill", "blue");
+        $('#' + stateID).css("fill", "#ce1256");
         break;
       case "0.6":
-        $('#' + stateID).css("fill", "blueviolet");
+        $('#' + stateID).css("fill", "#e7298a");
         break;
       case "0.5":
-        $('#' + stateID).css("fill", "cadetblue");
+        $('#' + stateID).css("fill", "#df65b0");
         break;
       case "0.4":
-        $('#' + stateID).css("fill", "cornflowerblue");
+        $('#' + stateID).css("fill", "#c994c7");
         break;
       case "0.3":
-        $('#' + stateID).css("fill", "darkblue");
+        $('#' + stateID).css("fill", "#d4b9da");
         break;
       case "0.2":
-        $('#' + stateID).css("fill", "darkcyan");
+        $('#' + stateID).css("fill", "#e7e1ef");
         break;
       case "0.1":
-        $('#' + stateID).css("fill", "dodgerblue");
-        break;
       case "0.0":
-        $("#" + stateID).css("fill", "green");
+        $("#" + stateID).css("fill", "#f7f4f9");
         break;
       default:
-        $('#' + stateID).css("fill", "aqua");
+        $('#' + stateID).css("fill", "#470016");
         break;
     }
     // console.log(avgVcMap)
@@ -141,8 +142,8 @@ $('path,circle,g').click(function (event) {
     return stat.ID === event.target.id;
   }).pop();
 
-  var avgVc = (toNumber(data.Crime['Violent crime']) / 100000).toFixed(2);
-  var avgPc = (toNumber(data.Crime['Property crime']) / 100000).toFixed(2);
+  var avgVc = (toNumber(data.Crime['Violent crime']) / 100000).toFixed(1);
+  var avgPc = (toNumber(data.Crime['Property crime']) / 100000).toFixed(1);
 
   // console.log(avgVcMap);
   // console.log(avgPc)
