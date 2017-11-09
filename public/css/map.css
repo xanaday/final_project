@@ -49,3 +49,31 @@ path:hover, circle:hover {
 .details-button.btn {
   display: none;
 }
+#vcStatsButton {
+  position: absolute;
+  bottom: 27px;
+  right: 300px;
+  background-color: #000000;
+  border: none;
+  color: #F5E3A5;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+#pcStatsButton {
+  position: absolute;
+  bottom: 27px;
+  right: 30px;
+  background-color: #000000;
+  border: none;
+  color: #F5E3A5;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
