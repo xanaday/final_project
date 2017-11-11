@@ -34,37 +34,47 @@ $("#vcStatsButton").click(function () {
 
     console.log(parseFloat(avgVcMap));
     switch (avgVcMap) {
-      // case "0.9":
-      //   $('#' + stateID).css("fill", "#67001f")
-      //   break;
+      case "2.0":
+      case "1.0":
+      case "1.1":
+      case "1.2":
+      case "1.3":
+      case "1.4":
+      case "1.5":
+      case "1.6":
+      case "1.7":
+      case "1.8":
+      case "1.9":
+      case "0.9":
+        $('#' + stateID).css("fill", "#4e1666");
+        break;
       case "0.8":
-        $('#' + stateID).css("fill", "#980043");
+        $('#' + stateID).css("fill", "#622c79");
         break;
       case "0.7":
-        $('#' + stateID).css("fill", "#ce1256");
+        $('#' + stateID).css("fill", "#76428c");
         break;
       case "0.6":
-        $('#' + stateID).css("fill", "#e7298a");
+        $('#' + stateID).css("fill", "#8a589f");
         break;
       case "0.5":
-        $('#' + stateID).css("fill", "#df65b0");
+        $('#' + stateID).css("fill", "#9e6eb2");
         break;
       case "0.4":
-        $('#' + stateID).css("fill", "#c994c7");
+        $('#' + stateID).css("fill", "#b284c5");
         break;
       case "0.3":
-        $('#' + stateID).css("fill", "#d4b9da");
+        $('#' + stateID).css("fill", "#c69ad8");
         break;
       case "0.2":
-        $('#' + stateID).css("fill", "#e7e1ef");
+        $('#' + stateID).css("fill", "#dab0eb");
         break;
       case "0.1":
       case "0.0":
-        $("#" + stateID).css("fill", "#f7f4f9");
+        $("#" + stateID).css("fill", "#eec7ff");
         break;
-      case "0.9":
       default:
-        $('#' + stateID).css("fill", "#67001f");
+        $('#' + stateID).css("fill", "#3a0053");
         break;
     }
   }
@@ -96,38 +106,37 @@ $("#pcStatsButton").click(function () {
       case "1.8":
       case "1.9":
       case "0.9":
-        $('#' + stateID).css("fill", "#67001f");
+        $('#' + stateID).css("fill", "#4e1666");
         break;
       case "0.8":
-        $('#' + stateID).css("fill", "#980043");
+        $('#' + stateID).css("fill", "#622c79");
         break;
       case "0.7":
-        $('#' + stateID).css("fill", "#ce1256");
+        $('#' + stateID).css("fill", "#76428c");
         break;
       case "0.6":
-        $('#' + stateID).css("fill", "#e7298a");
+        $('#' + stateID).css("fill", "#8a589f");
         break;
       case "0.5":
-        $('#' + stateID).css("fill", "#df65b0");
+        $('#' + stateID).css("fill", "#9e6eb2");
         break;
       case "0.4":
-        $('#' + stateID).css("fill", "#c994c7");
+        $('#' + stateID).css("fill", "#b284c5");
         break;
       case "0.3":
-        $('#' + stateID).css("fill", "#d4b9da");
+        $('#' + stateID).css("fill", "#c69ad8");
         break;
       case "0.2":
-        $('#' + stateID).css("fill", "#e7e1ef");
+        $('#' + stateID).css("fill", "#dab0eb");
         break;
       case "0.1":
       case "0.0":
-        $("#" + stateID).css("fill", "#f7f4f9");
+        $("#" + stateID).css("fill", "#eec7ff");
         break;
       default:
-        $('#' + stateID).css("fill", "#470016");
+        $('#' + stateID).css("fill", "#3a0053");
         break;
     }
-    // console.log(avgVcMap)
   }
 });
 
@@ -142,8 +151,8 @@ $('path,circle,g').click(function (event) {
     return stat.ID === event.target.id;
   }).pop();
 
-  var avgVc = (toNumber(data.Crime['Violent crime']) / 100000).toFixed(1);
-  var avgPc = (toNumber(data.Crime['Property crime']) / 100000).toFixed(1);
+  var avgVc = (toNumber(data.Crime['Violent crime']) / 100000).toFixed(2);
+  var avgPc = (toNumber(data.Crime['Property crime']) / 100000).toFixed(2);
 
   // console.log(avgVcMap);
   // console.log(avgPc)

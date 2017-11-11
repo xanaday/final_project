@@ -4,11 +4,11 @@ body {
 }
 .header {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 2.5em;
-  color: #F5E3A5;
-  background-color: #000000;
+  color: #000000;
+  background: linear-gradient(#76428c, #ffffff);
 }
 #us-map{
   display: block;
@@ -41,7 +41,7 @@ path:hover, circle:hover {
   left: 0px;
   z-index: 1;
   background-color: #ffffff;
-  border: 2px solid #DE8F26;
+  border: 2px solid #76428c;
   border-radius: 5px;
   padding: 5px;
   font-family: arial;
@@ -53,9 +53,9 @@ path:hover, circle:hover {
   position: absolute;
   bottom: 27px;
   right: 300px;
-  background-color: #000000;
+  background: linear-gradient(#eec7ff, #3a0053);
   border: none;
-  color: #F5E3A5;
+  color: #ffffff;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
@@ -66,10 +66,10 @@ path:hover, circle:hover {
 #pcStatsButton {
   position: absolute;
   bottom: 27px;
-  right: 30px;
-  background-color: #000000;
+  right: 90px;
+  background: linear-gradient(#eec7ff, #3a0053);
   border: none;
-  color: #F5E3A5;
+  color: #ffffff;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
