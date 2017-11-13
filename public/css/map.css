@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   height: 100vh;
 }
-.header {
+#header {
   text-align: center;
   padding: 20px;
   font-family: Verdana, Tahoma, sans-serif;
@@ -20,15 +20,15 @@ body {
   height: 80%;
 }
 path:hover, circle:hover {
-  stroke: #25346F !important;
+  stroke: #ffffff !important;
   stroke-width:2px;
   stroke-linejoin: round;
-  fill: #25346F !important;
+  fill: #000000 !important;
   cursor: pointer;
 }
 #path67 {
   fill: none !important;
-  stroke: #A9A9A9 !important;
+  stroke: #a5a5a5 !important;
   cursor: default;
 }
 .btn {
@@ -49,8 +49,34 @@ path:hover, circle:hover {
 .details-button.btn {
   display: none;
 }
+#summary {
+  position: inline-block;
+  float: right;
+  width: 40em;
+  padding: 3em;
+}
+#gradMax {
+  position: absolute;
+  bottom: 115px;
+  right: 65px;
+}
+#gradMin {
+  position: absolute;
+  bottom: 115px;
+  right: 452px;
+}
+#grad {
+  position: absolute;
+  background: linear-gradient(to right, #eec7ff, #3a0053);
+  height: 1em;
+  width: 30em;
+  bottom: 100px;
+  right: 65px;
+}
 #vcStatsButton {
   position: absolute;
+  float: right;
+  outline: 0;
   bottom: 27px;
   right: 300px;
   background: linear-gradient(#c69ad8, #3a0053);
@@ -59,12 +85,13 @@ path:hover, circle:hover {
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 12px;
 }
 #pcStatsButton {
   position: absolute;
+  float: right;
+  outline: 0;
   bottom: 27px;
   right: 90px;
   background: linear-gradient(#c69ad8, #3a0053);
@@ -73,7 +100,6 @@ path:hover, circle:hover {
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 12px;
 }
