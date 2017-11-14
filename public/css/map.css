@@ -47,12 +47,6 @@ path:hover, circle:hover {
 .details-button.btn {
   display: none;
 }
-#summary {
-  position: inline-block;
-  float: right;
-  width: 40em;
-  padding: 3em;
-}
 .legend .legend-title {
   text-align: right;
   margin-bottom: 8px;
@@ -81,6 +75,9 @@ path:hover, circle:hover {
   width: 50px;
   }
 .legend .legend-source {
+  display: absolute;
+  float: right;
+  padding-right: 3em;
   font-size: 70%;
   color: #a5a5a5;
   clear: both;
@@ -88,7 +85,13 @@ path:hover, circle:hover {
 .legend a {
   color: #a5a5a5;
   }
-#vcStatsButton {
+  .summary {
+    position: inline-block;
+    float: right;
+    width: 40em;
+    padding: 3em;
+  }
+  .summary #vcStatsButton {
   position: absolute;
   float: right;
   outline: 0;
@@ -103,7 +106,7 @@ path:hover, circle:hover {
   font-size: 16px;
   border-radius: 12px;
 }
-#pcStatsButton {
+.summary #pcStatsButton {
   position: absolute;
   float: right;
   outline: 0;
