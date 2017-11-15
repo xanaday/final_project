@@ -161,13 +161,13 @@ $('path,circle,g').click(function (event) {
     Data estimates the number of offenses and the rate of crime per 100,000 inhabitants.
     <br /><br />
     <strong>Population</strong>: ${data.Population}<br /><br />
-    <font size="4"><strong>Violent Crimes (${data.Crime['Violent crime']} (${avgVc}%))</strong></font><br />
+    <font size="4"><strong>Violent Crimes: ${data.Crime['Violent crime']} (${avgVc}%)</strong></font><br />
     <strong>Murder and nonnegligent manslaughter</strong>: ${data.Crime['Murder and nonnegligent manslaughter']}<br />
     <strong>Rape (revised definition)</strong>: ${data.Crime['Rape (revised definition)']}<br />
     <strong>Rape (legacy definition)</strong>: ${data.Crime['Rape (legacy definition)']}<br />
     <strong>Robbery</strong>: ${data.Crime.Robbery}<br />
     <strong>Aggravated assault</strong>: ${data.Crime['Aggravated assault']}<br /><br />
-    <font size="4"><strong>Property Crimes (${data.Crime['Property crime']} (${avgPc}%))</strong></font><br />
+    <font size="4"><strong>Property Crimes: ${data.Crime['Property crime']} (${avgPc}%)</strong></font><br />
     <strong>Burglary</strong>: ${data.Crime.Burglary}<br />
     <strong>Larceny-theft</strong>: ${data.Crime['Larceny-theft']}<br />
     <strong>Motor vehicle theft</strong>: ${data.Crime['Motor vehicle theft']}
