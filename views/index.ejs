@@ -93,11 +93,11 @@
 </div>
 
 <div class="summary">
-	<p>Every year, the Federal Bureau of Investigation (FBI) releases a report of Crime in the United States. This report is a statistical compilation of offense, arrest, and police employee data reported by law enforcement agencies voluntarily participating in the FBI’s Uniform Crime Reporting (UCR) Program.</p>
-	<p>The lefthand map presents the data compiled in the Crime report's Table 3, <strong>Crime in the United States by State</strong>. Click on a state to bring up that state's 2016 Property Crime and Violent Crime UCR statistics, or click on the buttons below to color-code the map by each state's per capita rate of Violent Crime or Property Crime.</p>
-	
-	<button id="vcStatsButton">Violent Crimes</button>
-	<button id="pcStatsButton">Property Crimes</button>
+	<p>Every year, the Federal Bureau of Investigation (FBI) releases a report of <strong>Crime in the United States</strong>. The report is "a statistical compilation of offense, arrest, and police employee data reported by law enforcement agencies voluntarily participating in the FBI’s Uniform Crime Reporting (UCR) Program."</p>
+	<p>This map presents the data compiled in the Crime report's Table 3, <strong>Crime in the United States by State</strong>. Mouse over a state to see that state's total number of UCR crimes, or click for a breakdown of that state's Violent Crime and Property Crime statistics. Click the buttons below to color-code the map by each state's Violent Crimes per capita or Property Crimes per capita.</p>
+	<hr>
+	<p><button id="vcStatsButton">Violent Crimes</button></p>
+	<p><button id="pcStatsButton">Property Crimes</button></p>
 </div>
 
 <div class="legend">
@@ -122,10 +122,10 @@
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary details-button" data-toggle="modal" data-target="#modal">
 	Click Here
-  </button>
+</button>
   
-  <!-- Modal -->
-  <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 	  <div class="modal-content crime-stats-detail">
 		<div class="modal-header state-name">
@@ -137,13 +137,9 @@
 		<div class="modal-body">
 		  ...
 		</div>
-		<!-- <div class="modal-footer">
-		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		  <button type="button" class="btn btn-primary">Save changes</button>
-		</div> -->
 	  </div>
 	</div>
-  </div>  
+</div>  
 
 <a href="https://websitebeaver.com/how-to-make-an-interactive-and-responsive-svg-map-of-us-states-capitals" target="_blank" style="position: absolute; bottom: 0px; right: 0px; text-decoration: none; color: #8a8787">Tutorial is on Website Beaver</a>
 

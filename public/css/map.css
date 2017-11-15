@@ -85,18 +85,17 @@ path:hover, circle:hover {
 .legend a {
   color: #a5a5a5;
   }
-  .summary {
+.summary {
     position: inline-block;
     float: right;
+    /* text-align: justify; */
     width: 40em;
     padding: 3em;
-  }
-  .summary #vcStatsButton {
+ }
+#vcStatsButton {
   position: absolute;
-  float: right;
+  float: left;
   outline: 0;
-  bottom: 27px;
-  right: 300px;
   background: linear-gradient(#c69ad8, #3a0053);
   border: none;
   color: #ffffff;
@@ -106,12 +105,9 @@ path:hover, circle:hover {
   font-size: 16px;
   border-radius: 12px;
 }
-.summary #pcStatsButton {
-  position: absolute;
+#pcStatsButton {
   float: right;
   outline: 0;
-  bottom: 27px;
-  right: 90px;
   background: linear-gradient(#c69ad8, #3a0053);
   border: none;
   color: #ffffff;
