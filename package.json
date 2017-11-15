@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel --watch src/ -d public/js"
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "author": "",
   "license": "ISC",
