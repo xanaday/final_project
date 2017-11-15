@@ -1,5 +1,6 @@
 'use strict'
-
+$( document ).ready(function() {
+    
 const express = require('express');
 const app = express();
 const parser = require('body-parser');
@@ -19,4 +20,5 @@ app.get('/', function(req, res) {
 
 app.listen(3000, function(){
     console.log('listening on port 3000')
+});
 });

@@ -1,5 +1,4 @@
-// is this right? check old js apps
-$(document).ready()
+$( document ).ready(function() {
 console.log('document loaded')
 
 $("path, circle").hover(function(e) {
@@ -189,3 +188,4 @@ if(ios) {
     return false;
   });
 }
+});
