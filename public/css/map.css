@@ -10,11 +10,18 @@ body {
   color: #000000;
   background: linear-gradient(#76428c, #ffffff);
 }
-#us-map{
+.testParent {
+  height: auto;
+}
+.testing {
+  align-items: flex-end;
+  height: 100%;
+}
+#us-map {
   display: block;
   position: absolute;
   bottom: 0;
-  width: 80%;
+  width: 90%;
   height: 80%;
 }
 path:hover, circle:hover {
@@ -116,6 +123,7 @@ path:hover, circle:hover {
   font-size: 16px;
   border-radius: 12px;
 }
+
 @media only screen and (max-width: 414px) {
   .header {
     text-align: center;
