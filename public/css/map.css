@@ -10,9 +10,6 @@ body {
   color: #000000;
   background: linear-gradient(#76428c, #ffffff);
 }
-.testParent {
-  height: auto;
-}
 .testing {
   align-items: flex-end;
   height: 100%;
@@ -21,8 +18,8 @@ body {
   display: block;
   position: absolute;
   bottom: 0;
-  width: 90%;
-  height: 80%;
+  width: 60%;
+  height: auto;
 }
 path:hover, circle:hover {
   stroke: #ffffff !important;
